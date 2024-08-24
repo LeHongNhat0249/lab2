@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lab1.css">
+    <link href="fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="menu">
+        <ul>
+            <li>TLU</li>
+            <li><a href="">Trang chủ</a></li>
+            <li><a href="#" id="add-employee-btn">Quản lí lớp học</a></li>
+        </ul>
+        <div class="search-box">
+            <input type="text" class="search-txt" name="" placeholder="Nhập nội dung tìm kiếm">
+            <button id="search">Tìm kiếm</button>
+        </div>
+    </div>
+    <div id="banner">
+        <h1>Quản lí lớp học</h1>
+        <div id="add">
+            <button id="btn-open"><i class="fa-solid fa-plus"></i>Thêm lớp</button>
+        </div>
+    </div>
+    <div id="modal-container" >
+        <div id="modal">
+            <div id="modal-header">
+                <h2>Thêm lớp học</h2>
+                <button id="btn-close"><i class="fa-solid fa-x"></i></button>
+            </div>
+            <form id="modal-body" style="text-align: center;">
+                <label for="id">STT</label>
+                <input type="text" id="id" name="id">
+                <label for="name">Tên lớp:</label>
+                <input type="text" id="name" name="name" required>
+                <div id="nameError"></div>
+                <label for="time">Lịch học:</label>
+                <input type="text" id="time" name="time" required>
+                <div id="addError"></div>
+                <label for="tt">Trạng thái</label>
+                <select id="mode" name="mode">
+                    <option value="hd">Hoạt động</option>
+                    <option value="khd">Không hoạt động</option>
+                    <option value="ng">Ngừng</option>
+                </select>
+                <label for="class">Phòng học:</label>
+                <input type="text" id="class" name="class" required>
+                <div id="phoneError"></div>
+                <button id="create" type="submit" >THÊM</button>
+            </form>
+        </div>
+    </div>
+    <div id="table">
+        <div class="check-box">STT</div>
+        <div class="table-item1">
+            <strong>Tên lớp</strong>
+        </div>
+        <div class="table-item2">
+            <strong>Lịch học</strong>
+        </div>
+        <div class="table-item3">
+            <strong>Trạng thái</strong>
+        </div>
+        <div class="table-item4">
+            <strong>Phòng học</strong>
+        </div>
+        <div class="table-item5">
+            <strong>Quản lý</strong>
+        </div>
+    </div>
+    <div id="list-courses"></div>
+    <script src="lab1.js">
+
+    </script>
+</body>
+</html>

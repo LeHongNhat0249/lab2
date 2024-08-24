@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "3",
+      "name": "12A2",
+      "time": "25/3/2023",
+      "mode": "Tạm dừng",
+      "class": "18"
+    },
+    {
+      "id": "3",
+      "name": "12A2",
+      "time": "25/3/2023",
+      "mode": "Tạm dừng",
+      "class": "19"
+    },
+    {
+      "id": "3",
+      "name": "12A6",
+      "time": "23/4/2004",
+      "mode": "Hoạt động",
+      "class": "17"
+    },
+    {
+      "id": "1",
+      "name": "12a3",
+      "time": "a",
+      "mode": "Hoạt động",
+      "class": "13"
+    }
+  ]
+}
